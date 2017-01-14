@@ -1,0 +1,25 @@
+{
+    "result": {
+        "首页": {
+            "首页": "/"
+        },
+        "商家管理": {
+            "商家列表": "corp",
+            "订单列表": "order"
+        },
+        "API管理": {
+            "API列表": "openApi"
+        }
+    },
+    "userInfo": {
+        "corp_id": "wx82d85f34f74c2c1c",
+        "user_type": 5,
+        "user_id": "wanglijie",
+        "user_name": "王利洁",
+        "user_avatar": "http://shp.qpic.cn/bizmp/ZNLe7jraKibl6nibNiaF8uI0PRpdCQiclyvPLsVEqFj1W5t9ORTd4fk6Sg/",
+        "redirect_login_info": null,
+        "pk_corp": "6",
+        "pk_corp_user": "42"
+    },
+    "error": 0
+}

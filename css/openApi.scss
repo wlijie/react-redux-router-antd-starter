@@ -1,0 +1,64 @@
+.search-main{
+	padding: 0 0 15px 0;
+}
+.search-group{
+	float: right;
+}
+.search-group .search-group-select{
+	width: 150px;
+	margin-right: 15px;
+}
+
+
+
+
+.card-border{
+	margin-bottom: 30px;
+	border:1px solid #ececec;
+}
+.marT10{
+	margin-top:10px; 
+}
+.marL15{
+	margin-left:15px; 
+}
+.outer {zoom:1;}
+.outer:after {
+    clear:both;
+    content:'.';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+.ui-dlist{
+
+}
+.ui-dlist-tit, .ui-dlist-det{
+    float: left;	
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+}
+.ui-dlist-tit {
+    position: relative;
+    width: 100px;
+    padding-right: 10px;
+}
+.ui-dlist-tit:after{   /*chrome*/
+    content:".";  
+    display: inline-block;  
+    width:100%;  
+    overflow:hidden;  
+    height:0;  
+}  
+.ui-dlist-tit:before{
+    position: absolute;
+    right: -5px;
+    content: '\FF1A';
+}
+.ui-dlist-det{
+	padding-left: 5px;
+    text-align: left;
+
+}
