@@ -1,0 +1,11 @@
+{
+    "presets": [
+      "es2015",
+      "react",
+    ],
+    "plugins": [
+      "recharts",
+      "transform-object-rest-spread",
+      ["import", [{ "libraryName": "antd", "style": "css" }]]
+    ],
+}
