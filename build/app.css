@@ -553,7 +553,6 @@ samp {
   vertical-align: baseline;
   text-align: center;
   text-transform: none;
-  text-rendering: auto;
   line-height: 1;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -3545,7 +3544,6 @@ samp {
   vertical-align: baseline;
   text-align: center;
   text-transform: none;
-  text-rendering: auto;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3828,7 +3826,6 @@ samp {
   border-radius: 4px;
   cursor: default;
   float: left;
-  padding: 0 16px;
   margin-right: 4px;
   max-width: 99%;
   position: relative;
@@ -3854,7 +3851,6 @@ samp {
   vertical-align: baseline;
   text-align: center;
   text-transform: none;
-  text-rendering: auto;
   line-height: 1;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -3990,8 +3986,8 @@ samp {
   padding: 7px 16px;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.65);
-  cursor: pointer;
   white-space: nowrap;
+  cursor: pointer;
   overflow: hidden;
   -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
@@ -4478,7 +4474,6 @@ textarea.ant-input {
 }
 .ant-input-group-addon .ant-select .ant-select-selection {
   background-color: inherit;
-  border: 0;
   margin: -1px;
   border: 1px solid transparent;
   box-shadow: none;
@@ -4919,9 +4914,11 @@ span.ant-radio + * {
   word-break: break-all;
 }
 .ant-table-thead > tr > th.ant-table-selection-column,
-.ant-table-tbody > tr > td.ant-table-selection-column {
+.ant-table-tbody > tr > td.ant-table-selection-column,
+.ant-table-expand-icon-th,
+.ant-table-row-expand-icon-cell {
   text-align: center;
-  width: 40px;
+  width: 48px;
 }
 .ant-table-header {
   background: #f7f7f7;
@@ -5129,7 +5126,7 @@ span.ant-radio + * {
   border-radius: 4px 4px 0 0;
 }
 .ant-table-filter-dropdown .ant-dropdown-menu-item > label + span {
-  margin-left: 8px;
+  padding: 0;
 }
 .ant-table-filter-dropdown .ant-dropdown-menu-sub {
   border-radius: 4px;
@@ -5166,9 +5163,6 @@ span.ant-radio + * {
 }
 .ant-table-filter-dropdown-link.clear {
   float: right;
-}
-.ant-table-expand-icon-th {
-  width: 40px;
 }
 .ant-table-row-expand-icon {
   cursor: pointer;
@@ -5551,7 +5545,7 @@ tr.ant-table-expanded-row:hover {
   font-family: "anticon" !important;
   position: absolute;
   content: "\E61F";
-  right: 16px;
+  right: 12px;
   color: rgba(0, 0, 0, 0.43);
   display: inline-block;
   font-size: 12px;
@@ -6351,28 +6345,28 @@ tr.ant-table-expanded-row:hover {
   margin: -7px;
 }
 .ant-spin-nested-loading .ant-spin-lg .ant-spin-dot {
-  margin: -15px;
-}
-.ant-spin-nested-loading .ant-spin-show-text .ant-spin-dot {
   margin: -16px;
 }
+.ant-spin-nested-loading .ant-spin-show-text .ant-spin-dot {
+  margin-top: -20px;
+}
 .ant-spin-nested-loading .ant-spin-show-text.ant-spin-sm .ant-spin-dot {
-  margin: -13px;
+  margin-top: -17px;
 }
 .ant-spin-nested-loading .ant-spin-show-text.ant-spin-lg .ant-spin-dot {
-  margin: -21px;
+  margin-top: -26px;
 }
 .ant-spin-nested-loading .ant-spin-text {
   position: absolute;
   top: 50%;
   width: 100%;
-  padding-top: 4px;
+  padding-top: 6px;
 }
 .ant-spin-nested-loading .ant-spin-sm .ant-spin-text {
-  padding-top: 1px;
+  padding-top: 3px;
 }
 .ant-spin-nested-loading .ant-spin-lg .ant-spin-text {
-  padding-top: 9px;
+  padding-top: 12px;
 }
 .ant-spin-container {
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -6383,9 +6377,9 @@ tr.ant-table-expanded-row:hover {
   opacity: 0.7;
   -webkit-filter: blur(1px);
   filter: blur(1px);
+  /* IE6~IE9 */
   -webkit-filter: progid\:DXImageTransform\.Microsoft\.Blur(PixelRadius\=1, MakeShadow\=false);
           filter: progid\:DXImageTransform\.Microsoft\.Blur(PixelRadius\=1, MakeShadow\=false);
-  /* IE6~IE9 */
 }
 .ant-spin-blur:after {
   content: '';
@@ -6407,13 +6401,13 @@ tr.ant-table-expanded-row:hover {
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
-  -webkit-animation: antRotate 3.2s infinite linear;
-          animation: antRotate 3.2s infinite linear;
+  -webkit-animation: antRotate 2s infinite linear;
+          animation: antRotate 2s infinite linear;
 }
 .ant-spin-dot i {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
   background-color: #108ee9;
   -webkit-transform: scale(0.6);
       -ms-transform: scale(0.6);
@@ -6421,11 +6415,11 @@ tr.ant-table-expanded-row:hover {
   display: block;
   position: absolute;
   opacity: 0.3;
-  -webkit-animation: antSpinMove .8s infinite linear alternate;
-          animation: antSpinMove .8s infinite linear alternate;
-  -webkit-transform-origin: 0 0;
-      -ms-transform-origin: 0 0;
-          transform-origin: 0 0;
+  -webkit-animation: antSpinMove 1s infinite linear alternate;
+          animation: antSpinMove 1s infinite linear alternate;
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 .ant-spin-dot i:nth-child(1) {
   left: 0;
@@ -6458,12 +6452,12 @@ tr.ant-table-expanded-row:hover {
   height: 6px;
 }
 .ant-spin-lg .ant-spin-dot {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
 }
 .ant-spin-lg .ant-spin-dot i {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
 }
 .ant-spin.ant-spin-show-text .ant-spin-text {
   display: block;
@@ -6477,15 +6471,15 @@ tr.ant-table-expanded-row:hover {
 }
 @-webkit-keyframes antSpinMove {
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     opacity: 1;
   }
 }
 @keyframes antSpinMove {
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     opacity: 1;
   }
 }
@@ -7472,8 +7466,8 @@ form .ant-cascader-picker {
   display: inline-block;
   -webkit-animation: loadingCircle 1s infinite linear;
           animation: loadingCircle 1s infinite linear;
-  content: "\E6AE";
-  color: rgba(0, 0, 0, 0.43);
+  content: "\E64D";
+  color: #108ee9;
 }
 .ant-advanced-search-form .ant-form-item {
   margin-bottom: 16px;
@@ -10093,7 +10087,7 @@ form .ant-cascader-picker {
   border: 0;
   background: transparent;
   position: absolute;
-  right: 18px;
+  right: 16px;
   top: 16px;
   z-index: 10;
   font-weight: 700;
@@ -10733,10 +10727,8 @@ form .ant-cascader-picker {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-.ant-calendar-footer {
-  border-top: 1px solid #e9e9e9;
-}
 .ant-calendar-footer-btn {
+  border-top: 1px solid #e9e9e9;
   text-align: center;
   display: block;
   line-height: 38px;
@@ -11174,7 +11166,7 @@ textarea.ant-calendar-range .ant-calendar-time-picker-input {
 div.ant-calendar-range-quick-selector {
   display: block;
   text-align: left;
-  border-bottom: 1px solid #e9e9e9;
+  border-top: 1px solid #e9e9e9;
   padding: 10.5px 10px;
 }
 div.ant-calendar-range-quick-selector > a {
@@ -11369,7 +11361,6 @@ li.ant-calendar-time-picker-select-option-disabled:hover {
   line-height: 34px;
 }
 .ant-calendar-time .ant-calendar-footer {
-  border-top: 1px solid #e9e9e9;
   text-align: right;
   position: relative;
   height: auto;
@@ -11657,14 +11648,7 @@ li.ant-calendar-time-picker-select-option-disabled:hover {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-}
-.ant-calendar-year-panel-last-decade-cell .ant-calendar-year-panel-year:before,
-.ant-calendar-year-panel-next-decade-cell .ant-calendar-year-panel-year:before {
-  content: "\E61F";
-  font-family: "anticon" !important;
-}
-.ant-calendar-year-panel-last-decade-cell .ant-calendar-year-panel-year:before {
-  content: "\E620";
+  color: rgba(0, 0, 0, 0.25);
 }
 .ant-calendar-decade-panel {
   left: 0;
@@ -11799,14 +11783,7 @@ li.ant-calendar-time-picker-select-option-disabled:hover {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-}
-.ant-calendar-decade-panel-last-century-cell .ant-calendar-decade-panel-decade:before,
-.ant-calendar-decade-panel-next-century-cell .ant-calendar-decade-panel-decade:before {
-  content: "\E61F";
-  font-family: "anticon" !important;
-}
-.ant-calendar-decade-panel-last-century-cell .ant-calendar-decade-panel-decade:before {
-  content: "\E620";
+  color: rgba(0, 0, 0, 0.25);
 }
 .ant-calendar-month .ant-calendar-month-panel,
 .ant-calendar-month .ant-calendar-year-panel {
@@ -11880,7 +11857,7 @@ li.ant-calendar-time-picker-select-option-disabled:hover {
   color: rgba(0, 0, 0, 0.43);
 }
 .ant-time-picker-panel-narrow .ant-time-picker-panel-input-wrap {
-  max-width: 111px;
+  max-width: 112px;
 }
 .ant-time-picker-panel-select {
   float: left;

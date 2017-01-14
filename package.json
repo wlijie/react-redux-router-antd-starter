@@ -15,7 +15,6 @@
   "devDependencies": {},
   "dependencies": {
     "antd": "^2.6.1",
-    "autoprefixer-loader": "^3.2.0",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-plugin-import": "^1.1.0",
@@ -34,6 +33,7 @@
     "less-loader": "^2.2.3",
     "moment": "^2.17.1",
     "node-sass": "^4.3.0",
+    "postcss-loader": "^1.2.2",
     "rc-queue-anim": "^0.13.0",
     "rc-tween-one": "^0.11.12",
     "react": "^15.4.2",

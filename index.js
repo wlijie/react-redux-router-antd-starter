@@ -13,7 +13,6 @@ import './css/app.scss'
 import './css/corp.scss'
 import './css/openApi.scss'
 
-
 const store   = configureStore()
 const history = syncHistoryWithStore(hashHistory, store)
 render(

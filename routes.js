@@ -18,9 +18,8 @@ import desApi from './containers/openApi/desApi';
 import corpList from './containers/corp/corpList'
 import serviceList from './containers/corp/serviceList'
 import dataStatistics from './containers/corp/dataStatistics'
+import orderList from './containers/corp/orderList'
 
-//订单管理
-import orderList from './containers/order/orderList'
 
 export default (
   <Route path="/" component={app} breadcrumbName="首页">
