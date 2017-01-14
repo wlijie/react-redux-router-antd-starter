@@ -8,23 +8,6 @@ import { Provider } from 'react-redux'
 // import hashHistory from './components/history'
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 
-// import 'antd/dist/antd.css';
-
-import './css/corp/corpList.css'
-import './css/corp/dataStatistics.css'
-import './css/corp/serviceList.css'
-
-import './css/dataStatistics/statisticsHome.css'
-
-import './css/openApi/addApi.css'
-import './css/openApi/apiIndex.css'
-import './css/openApi/desApi.css'
-import './css/openApi/addApi.css'
-
-import './css/order/orderList.css'
-
-import './css/settle/settleList.css'
-
 
 const store   = configureStore()
 const history = syncHistoryWithStore(hashHistory, store)
