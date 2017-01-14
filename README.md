@@ -1,37 +1,32 @@
-# react-redux-router-antd-starter
-React Redux 脚手架
-# UI组件 antd-init
+## React Ant.Design Admin UI
 
-[![NPM version](https://img.shields.io/npm/v/antd-init.svg?style=flat)](https://npmjs.org/package/antd-init)
+## Features
 
-[Ant Design](https://github.com/ant-design/ant-design) demo tool.
+- [React](https://facebook.github.io/react/)
+- [Redux](https://github.com/reactjs/redux)
+- [Ant.Design](http://ant.design/)
+- [Babel](https://babeljs.io/)
+- [webpack](https://webpack.github.io/)
+- [mocha](https://mochajs.org/)
+- [enzyme](https://github.com/airbnb/enzyme)
 
-----
+## Getting Started
 
-## react-redux-router-antd-starter 安装使用
+Just clone the repo and install the necessary node modules:
 
-## Install
-
-```bash
-$ npm i antd-init -g
-```
-
-## Usage
-
-Generate demo boilerplate.
-
-```bash
-$ mkdir foo && cd foo
-$ antd-init
-```
-
-Start development server.
-
-```bash
+```shell
+$ git clone https://github.com/wlijie/react-redux-router-antd-starter.git demo
+$ cd demo
+$ npm install
 $ npm start
 ```
 
-Build.
+## Build
 
-```bash
+```shell
 $ npm run build
+```
+
+
+* 更新依赖组件到最新版本
+* 增加 page2 demo
