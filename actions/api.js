@@ -51,5 +51,35 @@ var getData = function (url, type = 'get'){
     })
   }
 }
+
 export const getListMenu = getData('/json/list_menu.json');
+
+//openApi
+export const getApiList = getData('/openapi/api/getApiList')
+export const getApiInfo = getData('/openapi/api/getApiInfo')
+export const editApiInfo = getData('/openapi/api/editApiInfo','post')
+export const addApiInfo = getData('/openapi/api/addApiInfo','post')
+export const delApi = getData('/openapi/api/delApi','post')
+export const getApiParamsInfo = getData('/openapi/api/getApiParamsInfo')
+export const addApiparams = getData('/openapi/apiparams/addApiparams','post')
+export const editApiparams = getData('/openapi/apiparams/editApiparams','post')
+export const deleteApiparams = getData('/openapi/apiparams/deleteApiparams','post')
+export const restoreApiparams = getData('/openapi/apiparams/restoreApiparams','post')
+//corp
+export const getCorpList = getData('/corp/service/get_corp_list')
+export const getServiceList = getData('/corp/service/get_corp_service')
+export const editServiceState = getData('/corp/service/update_service_state','post')
+export const initializeService = getData('/corp/service/init_crop_service','post')
+export const getReceiptSettingsList = getData('/corp/service/list_charge_dist')
+export const setChargeDistInfo = getData('/corp/service/add_charge_dist_set','post')
+export const setRenewalReceiptSettings = getData('/corp/service/add_renewal_set','post')
+export const getListRenewalInfo = getData('/corp/service/get_last_renewal_info')
+export const getViewReceiptSettingsLog = getData('/corp/service/list_charge_dist_log')
+export const setReceiptModeSettings = getData('/corp/service/add_corp_charge_type','post')
+export const getCorpInfo = getData('/corp/service/get_corp_info')
+export const dataStatisticsList = getData('/corp/service/list_data')
+export const getVenuteScreeningConditions = getData('/order/index/venute_screening_conditions');
+export const getSelectBook = getData('/order/index/select_book');
+export const getSelectContest = getData('/order/index/select_contest');
+
 

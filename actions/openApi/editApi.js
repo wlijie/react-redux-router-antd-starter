@@ -1,5 +1,5 @@
 import { push } from 'react-router-redux'
-import * as api from './api'
+import * as api from '../api';
 import { message } from 'antd';
 export const getInfo = (id) => (dispatch, getState) => {
   if(id){

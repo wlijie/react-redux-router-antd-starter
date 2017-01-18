@@ -56,7 +56,7 @@ const AsideCollapse = React.createClass({
             </div>
           </div>
           <div className="ant-layout-footer">
-          Boss 后台 版权所有 © 2016 由微赛智慧体育事业部支持
+          Boss 后台 版权所有 © 2016 由微赛智慧体育事业部支持 
           </div>
         </div>
       </div>

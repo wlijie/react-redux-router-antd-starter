@@ -1,4 +1,4 @@
-import * as api from './api';
+import * as api from '../api';
 
 import { message } from 'antd';
 export const query = (key,newParams) => (dispatch, getState) => {

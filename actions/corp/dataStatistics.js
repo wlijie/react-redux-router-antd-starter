@@ -1,4 +1,4 @@
-import * as api from './api';
+import * as api from '../api';
 import { push } from 'react-router-redux'
 import moment from 'moment';
 const dateFormat = 'YYYY-MM-DD';

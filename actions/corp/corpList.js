@@ -1,4 +1,4 @@
-import * as api from './api';
+import * as api from '../api';
 import { push } from 'react-router-redux'
 export const query = (newParams) => (dispatch, getState) => {
   dispatch(attrChange('loading', true));

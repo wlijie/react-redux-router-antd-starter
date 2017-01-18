@@ -1,5 +1,4 @@
-import * as api from './api';
-
+import * as api from '../api';
 import { message } from 'antd';
 export const getParamsInfo = (id) => (dispatch, getState) => {
   dispatch(attrChange('loadingCard', true));

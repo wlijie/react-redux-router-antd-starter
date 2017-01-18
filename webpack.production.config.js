@@ -29,10 +29,14 @@ module.exports = {
       sourceMap:true
     })
   ],
+  devServer:{
+    hot:true,
+    inline:true
+  },
   module: {
     loaders: [
       { test: /\.css$/, loader:  ExtractTextPlugin.extract(["css-loader"])},
-      // { test: /\.css$/, loader: "style-loader!css-loader"},
+      { test: /\.scss$/,loader: ExtractTextPlugin.extract("style", 'css!sass')},//这里用了样式分离出来的插件，如果不想分离出来，可以直接这样写 loader:'style!css!sass'
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
       { test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=50000&name=[path][name].[ext]'}
     ]
