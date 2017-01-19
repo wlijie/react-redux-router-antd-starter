@@ -1,0 +1,180 @@
+.ant-layout-aside {
+  position: relative;
+  min-height: 100%;
+}
+.ant-layout-aside .ant-layout-sider {
+  width: 224px;
+  background: #fff;
+  position: absolute;
+  overflow: auto;
+  padding-bottom: 24px;
+  height: 100%;
+}
+.ant-layout-aside .ant-layout-sider > .ant-menu {
+  margin-bottom: 20px;
+}
+.ant-layout-aside .ant-layout-header {
+  background: #404040;
+  height: 64px;
+  padding: 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+.ant-layout-aside .ant-layout-breadcrumb {
+  margin: 7px 0 -17px 24px;
+}
+.ant-layout-aside .ant-layout-main {
+  margin-left: 224px;
+}
+.ant-layout-aside .ant-layout-container {
+  margin: 24px 16px;
+}
+.ant-layout-aside .ant-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 600px;
+}
+.ant-layout-aside .ant-layout-footer {
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  background: #fff;
+  border-top: 1px solid #e9e9e9;
+  width: 100%;
+}
+.foreground { color: #40a5ed; }
+
+
+html,
+body {
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+}
+video {
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+.content-wrapper {
+  overflow: unset;
+  display: inline;
+}
+#react-content,
+#react-root {
+  height: 100%;
+}
+.content-wrapper > .tween-one-leaving,
+.queue-anim-leaving {
+  position: absolute !important;
+  width: 100%;
+}
+.video {
+  max-width: 800px;
+}
+.templates-wrapper {
+  display: inline;
+  overflow: unset;
+  user-select: none;
+}
+
+
+
+
+
+.header {
+  height: 64px;
+  width: 100%;
+  z-index: 970;
+  position: relative;
+}
+.header-logo {
+  height: 100%;
+  width: 224px;
+  float: left;
+}
+.header-logo .logo{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/logo.png) no-repeat;
+  background-size: 50%;
+  background-position: 40px center;
+}
+
+.header-nav {
+  float: left;
+  line-height: 64px;
+  position: relative;
+}
+.header-nav .ant-menu-horizontal {
+  border-bottom-color: transparent;
+}
+.header-nav .ant-menu {
+  background: transparent;
+  color: #ffffff;
+  line-height: 62px;
+}
+.header-nav .ant-menu li {
+  float: left;
+  text-align: center;
+  width: 100px;
+}
+.header-nav .ant-menu-horizontal > .ant-menu-item-active {
+  color: #34aff3;
+  border-bottom-color: #34aff3;
+}
+.header-user {
+  float: right;
+  margin-right: 4%;
+  line-height: 62px;
+  height: 64px;
+}
+.header-user .help {
+  width: 100px;
+  text-align: center;
+  font-size: 22px;
+  border-left: 1px solid rgba(233, 233, 233, 0.05);
+}
+.header-user .help .anticon {
+  vertical-align: middle;
+}
+.header-user .help span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 22px;
+}
+.header-user .user {
+  font-size: 14px;
+  padding: 0 20px;
+  border-left: 1px solid rgba(233, 233, 233, 0.05);
+}
+.header-user .user .img {
+  margin-left: 0;
+  height: 30px;
+  width: 30px;
+}
+.header-user .user .img img {
+  vertical-align: middle;
+}
+.header-user .user span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 24px;
+}
+.header-user .user .user_name{
+  display: inline-block;
+  color: #fff;
+}
+.header-user .user  .loginquit{
+  color: rgba(0, 0, 0, 0.65);
+  margin-left: 10px;
+  color: #fff;
+}
+.header-user .user a:hover {
+  color: #019bf0;
+}
+
+

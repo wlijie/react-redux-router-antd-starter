@@ -6,9 +6,6 @@
         "商家管理": {
             "商家列表": "corp",
             "订单列表": "order"
-        },
-        "API管理": {
-            "API列表": "openApi"
         }
     },
     "userInfo": {

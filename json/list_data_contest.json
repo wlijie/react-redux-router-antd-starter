@@ -1,0 +1,101 @@
+{
+    "error": 0,
+    "cost": 0.0060479640960693,
+    "total": 9,
+    "page": 0,
+    "size": 0,
+    "data": [
+        {
+            "seller_fk_corp": "1",
+            "day": "2016-11-01",
+            "numbers": "3",
+            "amount": "0.03",
+            "amount_discount": "0.00",
+            "amount_pay": "0.03",
+            "enrol_data_count": "3",
+            "corp_id": "1"
+        },
+        {
+            "seller_fk_corp": "1",
+            "day": "2016-11-03",
+            "numbers": "2",
+            "amount": "0.03",
+            "amount_discount": "0.01",
+            "amount_pay": "0.02",
+            "enrol_data_count": "2",
+            "corp_id": "1"
+        },
+        {
+            "seller_fk_corp": "1",
+            "day": "2016-11-04",
+            "numbers": "3",
+            "amount": "0.05",
+            "amount_discount": "0.00",
+            "amount_pay": "0.05",
+            "enrol_data_count": "5",
+            "corp_id": "1"
+        },
+        {
+            "seller_fk_corp": "1",
+            "day": "2016-11-07",
+            "numbers": "1",
+            "amount": "0.01",
+            "amount_discount": "0.01",
+            "amount_pay": "0.00",
+            "enrol_data_count": "1",
+            "corp_id": "1"
+        },
+        {
+            "seller_fk_corp": "1",
+            "day": "2016-11-08",
+            "numbers": "2",
+            "amount": "10.02",
+            "amount_discount": "0.00",
+            "amount_pay": "10.02",
+            "enrol_data_count": "2",
+            "corp_id": "1"
+        },
+        {
+            "seller_fk_corp": "1",
+            "day": "2016-11-09",
+            "numbers": "4",
+            "amount": "0.07",
+            "amount_discount": "0.01",
+            "amount_pay": "0.06",
+            "enrol_data_count": "7",
+            "corp_id": "1"
+        },
+        {
+            "seller_fk_corp": "1",
+            "day": "2016-11-17",
+            "numbers": "1",
+            "amount": "0.01",
+            "amount_discount": "-0.22",
+            "amount_pay": "0.23",
+            "enrol_data_count": "2",
+            "corp_id": "1"
+        },
+        {
+            "seller_fk_corp": "1",
+            "day": "2016-11-28",
+            "numbers": "7",
+            "amount": "0.04",
+            "amount_discount": "0.00",
+            "amount_pay": "0.04",
+            "enrol_data_count": "7",
+            "corp_id": "1"
+        },
+        {
+            "seller_fk_corp": "1",
+            "day": "2016-11-30",
+            "numbers": "5",
+            "amount": "0.05",
+            "amount_discount": "0.00",
+            "amount_pay": "0.05",
+            "enrol_data_count": "5",
+            "corp_id": "1"
+        }
+    ],
+    "start": "2015-12-02",
+    "end": "2017-01-14"
+}

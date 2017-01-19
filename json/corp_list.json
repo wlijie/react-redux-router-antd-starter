@@ -1,0 +1,247 @@
+{
+    "error": 0,
+    "cost": 0.0071148872375488,
+    "total": 25,
+    "page": 1,
+    "data": [
+        {
+            "corp_id": "25",
+            "corp_name": "天行达阵企业号",
+            "corp_full_name": "",
+            "ctime": "2016-12-29 11:10:44",
+            "name": "活动报名(已授权) 场馆预定(已授权)",
+            "service_name": "活动报名",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "24",
+            "corp_name": "报菜名",
+            "corp_full_name": "",
+            "ctime": "2016-12-26 19:45:01",
+            "name": "场馆预定(已授权) 活动报名(已授权)",
+            "charge_rate": [
+                "活动报名:100%",
+                "场馆预定:1000"
+            ],
+            "service_name": "活动报名 场馆预定 分销系统 运动项目",
+            "charge_type": "平台",
+            "charge_type_color": "#f50"
+        },
+        {
+            "corp_id": "23",
+            "corp_name": "史克浪体育",
+            "corp_full_name": "",
+            "ctime": "2016-12-23 18:08:19",
+            "name": "场馆预定(已授权) 活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "22",
+            "corp_name": "GM5国际运动主题乐园",
+            "corp_full_name": "北京臣斯文化传播有限公司",
+            "ctime": "2016-12-23 16:33:28",
+            "name": "活动报名(已授权) 场馆预定(已授权)",
+            "service_name": "活动报名",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "21",
+            "corp_name": "半夏团队",
+            "corp_full_name": "",
+            "ctime": "2016-12-22 19:49:17",
+            "name": "活动报名(未授权) 场馆预定(未授权) 场馆预定(已授权) 活动报名(已授权)",
+            "charge_rate": [
+                "活动报名:50%",
+                "场馆预定:0.05"
+            ],
+            "service_name": "活动报名 场馆预定 分销系统",
+            "charge_type": "平台",
+            "charge_type_color": "#f50"
+        },
+        {
+            "corp_id": "20",
+            "corp_name": "新赛道国际卡丁车馆",
+            "corp_full_name": "北京青泉赢睿汽车运动推广股份有限公司",
+            "ctime": "2016-12-14 16:52:27",
+            "name": "活动报名(已授权) 场馆预定(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "19",
+            "corp_name": "北京竹子文化传媒",
+            "corp_full_name": "北京竹子文化传媒有限公司",
+            "ctime": "2016-12-06 16:41:26",
+            "name": "活动报名(已授权)",
+            "service_name": "活动报名",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "18",
+            "corp_name": "版保科技",
+            "corp_full_name": "北京版宝科技有限责任公司",
+            "ctime": "2016-12-02 11:42:33",
+            "name": "场馆预定(已授权) 活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "17",
+            "corp_name": "tibaseball钛棒球",
+            "corp_full_name": "",
+            "ctime": "2016-11-29 14:20:45",
+            "name": "场馆预定(已授权) 活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "16",
+            "corp_name": "智慧体育",
+            "corp_full_name": "",
+            "ctime": "2016-11-16 14:00:51",
+            "name": "活动报名(未授权) 场馆预定(未授权) 场馆预定(未授权) 活动报名(未授权) 活动报名(已授权) 场馆预定(已授权)",
+            "service_name": "活动报名 场馆预定 分销系统 运动项目",
+            "charge_rate": [],
+            "charge_type": "平台",
+            "charge_type_color": "#f50"
+        },
+        {
+            "corp_id": "15",
+            "corp_name": "九明月国际体育",
+            "corp_full_name": "北京九明月国际体育文化发展有限公司",
+            "ctime": "2016-11-15 15:13:29",
+            "name": "活动报名(已授权) 场馆预定(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "14",
+            "corp_name": "everkid",
+            "corp_full_name": "信泓澄文化传播（北京）有限公司",
+            "ctime": "2016-11-09 10:08:31",
+            "name": "活动报名(已授权) 场馆预定(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": [],
+            "charge_type": "商户",
+            "charge_type_color": "#87d068"
+        },
+        {
+            "corp_id": "13",
+            "corp_name": "zssports",
+            "corp_full_name": "青岛卓铄体育运营发展有限公司",
+            "ctime": "2016-11-01 11:27:31",
+            "name": "场馆预定(已授权) 活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "12",
+            "corp_name": "锐江PHP工作室",
+            "corp_full_name": "",
+            "ctime": "2016-10-21 19:22:40",
+            "name": "活动报名(未授权) 场馆预定(已授权) 活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "11",
+            "corp_name": "北京猎动",
+            "corp_full_name": "",
+            "ctime": "2016-10-20 11:31:39",
+            "name": "活动报名(已授权)",
+            "service_name": "活动报名",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "10",
+            "corp_name": "Red1北京国际卡丁车",
+            "corp_full_name": "",
+            "ctime": "2016-10-14 17:48:55",
+            "name": "活动报名(已授权)",
+            "service_name": "活动报名",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "9",
+            "corp_name": "丝绸之路国际度假区",
+            "corp_full_name": "",
+            "ctime": "2016-10-12 18:02:03",
+            "name": "活动报名(已授权)",
+            "service_name": "活动报名",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "8",
+            "corp_name": "JIANCLUB",
+            "corp_full_name": "",
+            "ctime": "2016-09-21 13:22:04",
+            "name": "活动报名(已授权)",
+            "service_name": "活动报名",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "7",
+            "corp_name": "东方润通",
+            "corp_full_name": "",
+            "ctime": "2016-09-18 18:42:17",
+            "name": "活动报名(已授权)",
+            "service_name": "活动报名",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "6",
+            "corp_name": "龙景攀岩",
+            "corp_full_name": "",
+            "ctime": "2016-09-18 15:57:45",
+            "name": "活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "5",
+            "corp_name": "朝阳公园真人CS俱乐部",
+            "corp_full_name": "",
+            "ctime": "2016-09-13 17:28:12",
+            "name": "活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "4",
+            "corp_name": "微赛智慧平台",
+            "corp_full_name": "",
+            "ctime": "2016-09-13 16:47:01",
+            "name": "活动报名(未授权) 活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "3",
+            "corp_name": "企业号用户体验",
+            "corp_full_name": "",
+            "ctime": "2016-09-12 14:49:20",
+            "name": "活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "2",
+            "corp_name": "微赛体育团队",
+            "corp_full_name": "北京微赛时代体育科技有限公司",
+            "ctime": "2016-08-23 10:43:56",
+            "name": "活动报名(未授权) 活动报名(未授权) 活动报名(未授权) 活动报名(未授权) 活动报名(未授权) 活动报名(未授权) 活动报名(已授权) 场馆预定(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        },
+        {
+            "corp_id": "1",
+            "corp_name": "微赛sports",
+            "corp_full_name": "北京微赛时代体育科技有限公司",
+            "ctime": "2016-08-22 23:58:11",
+            "name": "赛事报名(未授权) 活动报名(未授权) 活动报名(未授权) 活动报名(未授权) 活动报名(已授权)",
+            "service_name": "活动报名 场馆预定",
+            "charge_rate": []
+        }
+    ]
+}

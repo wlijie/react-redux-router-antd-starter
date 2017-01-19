@@ -1,0 +1,44 @@
+{
+    "error": 0,
+    "cost": 0.0085370540618896,
+    "result": {
+        "corp_charge_id": "4",
+        "corp_id": "16",
+        "charge_type": "1",
+        "data": [
+            {
+                "service_id": "201",
+                "service_name": "在线购票(未开通)",
+                "corp_id": "16",
+                "charge_form": "",
+                "charge_rate": "",
+                "charge_max": "",
+                "charge_min": "",
+                "charge_start_time": "",
+                "charge_end_time": ""
+            },
+            {
+                "service_id": "202",
+                "service_name": "活动报名(已开通)",
+                "corp_id": "16",
+                "charge_form": "",
+                "charge_rate": "",
+                "charge_max": "",
+                "charge_min": "",
+                "charge_start_time": "",
+                "charge_end_time": ""
+            },
+            {
+                "service_id": "208",
+                "service_name": "场馆预定(已开通)",
+                "corp_id": "16",
+                "charge_form": "",
+                "charge_rate": "",
+                "charge_max": "",
+                "charge_min": "",
+                "charge_start_time": "",
+                "charge_end_time": ""
+            }
+        ]
+    }
+}
